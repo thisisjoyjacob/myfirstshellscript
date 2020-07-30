@@ -1,0 +1,8 @@
+sudo apt-get install imagemagick
+identify -help  // to learn the instructions
+identify image.jpg // identify image details
+convert image.jpg -crop {widthxheight+left+top} output.jpg // image dimension cropping details
+
+
+chmod +x myshellscript.sh
+./myshellscript.sh 
